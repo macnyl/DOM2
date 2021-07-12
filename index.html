@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <label for="radius">Radius:</label>
+    <input id="radius" name="radius" value="10" pattern="(?<!-|\w)\d*[.]?\d+(?!\w)">
+    <button id="calc" onclick=sphereVol()> calculate</button>
+    <br>
+    <p>Your result:</p>
+    <p id="outputVolume"></p>
+
+    <p class="elementEdit">Element</p>
+    <ul id="listOfli"></ul>
+
+</body>
+</html>

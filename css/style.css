@@ -1,0 +1,16 @@
+input:valid {
+    border-color: green;
+}
+  
+input:invalid {
+    border-color: red;
+}
+
+.elementEdit{
+    background: yellowgreen;
+}
+
+.www{
+    border: 2px solid red;
+}
+
